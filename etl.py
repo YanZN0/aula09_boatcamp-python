@@ -2,6 +2,10 @@ import pandas as pd
 import os
 import glob
 from utils_log import log_decorator
+from time_decorator import wraps
+import time
+from loguru import logger
+
 
 #função de extract que le e consolida o json
 
